@@ -1,0 +1,11 @@
+; Count from 1 to 10
+LOAD A, 1
+LOAD C, 0
+
+LABEL loop
+CALL C, A         ; Print current number
+ADD A, 1          ; Increment counter
+JEQ A, 11, end, loop  ; Continue if A < 11
+
+LABEL end
+HALT

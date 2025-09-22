@@ -1,0 +1,28 @@
+{
+  "name": "xasm",
+  "version": "0.0.1",
+  "description": "Assembly inspired language, made for fun.",
+  "keywords": [
+    "assembly",
+    "assembler",
+    "javascript"
+  ],
+  "homepage": "https://github.com/xbcq1490/xASM#readme",
+  "bugs": {
+    "url": "https://github.com/xbcq1490/xASM/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xbcq1490/xASM.git"
+  },
+  "license": "GPL-3.0-or-later",
+  "author": "xbcq",
+  "type": "commonjs",
+  "main": "src/index.js",
+  "bin": {
+    "xasm": "cli.js"
+  },
+  "scripts": {
+    "test": "node tests/index.js"
+  }
+}
