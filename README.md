@@ -17,9 +17,13 @@ xASM is a lightweight assembly-like language designed for learning and experimen
 ## 📦 Installation
 
 ```
+# Using git
 git clone https://github.com/xbcq1490/xASM.git
 cd xASM
 npm install -g .
+
+# Using npm
+npm install -g xasm
 ```
 
 ## 🚀 Running Programs
