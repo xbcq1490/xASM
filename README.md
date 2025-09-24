@@ -114,7 +114,6 @@ The xASM interpreter consists of several components:
 - **Interpreter** (`src/interpreter/`): Executes the parsed instructions using a virtual machine
 - **Opcodes** (`src/opcodes/`): Defines the instruction set and argument requirements
 - **Registers** (`src/registers/`): Register template
-- **Utils** (`src/utils/`): Utilities
 
 ## ⚠️ Requirements & Limitations
 

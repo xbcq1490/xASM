@@ -1,6 +1,4 @@
-const opcodes = require("../opcodes");
 const registers = require("../registers");
-const utils = require("../utils");
 
 class interpreter {
 	constructor(tree) {
